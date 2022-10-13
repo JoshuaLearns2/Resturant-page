@@ -20,8 +20,6 @@ function createHeader() {
   homeBtn.textContent = "HOME";
   menuBtn.textContent = "MENU";
   contactBtn.textContent = "CONTACT";
-
-  return header;
 }
 
 function createFooter() {
@@ -35,35 +33,30 @@ function createFooter() {
 
   content.appendChild(footer);
   footer.appendChild(footerText);
-
-  return footer;
 }
 
-function mainContent() {
-  const home = document.createElement('div');
-  const title = document.createElement('h1');
-  const image = document.createElement('img');
+// function mainContent() {
+  // const home = document.createElement('div');
+//   const title = document.createElement('h1');
+//   const image = document.createElement('img');
 
 
-  home.classList.add('home');
-  title.classList.add('title');
-  image.classList.add('image');
+  // home.classList.add('home');
+//   title.classList.add('title');
+//   image.classList.add('image');
 
-  title.textContent = "GECKO'S";
-  image.src = 'https://www.galapagospet.com/wp-content/uploads/2020/10/ABOUT-US_Crested-Gecko@2x.png';
+//   title.textContent = "GECKO'S";
+//   image.src = 'https://www.galapagospet.com/wp-content/uploads/2020/10/ABOUT-US_Crested-Gecko@2x.png';
 
-  content.appendChild(home);
-  home.appendChild(title);
-  home.appendChild(image);
-
-  return home;
-}
+  // content.appendChild(home);
+//   home.appendChild(title);
+//   home.appendChild(image);
+// }
 
 function createHome() {
   createHeader();
-  mainContent();
+  // mainContent();
   createFooter();
-
 }
 
-export default createHome;
+export default createHome

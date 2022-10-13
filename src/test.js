@@ -1,6 +1,6 @@
 const content = document.getElementById('content');
 
-function menuContent() {
+function mainContent() {
   const home = document.createElement('div');
   const title = document.createElement('h1');
   const image = document.createElement('img');
@@ -10,7 +10,7 @@ function menuContent() {
   title.classList.add('title');
   image.classList.add('image');
 
-  title.textContent = "MENU";
+  title.textContent = "GECKO'S";
   image.src = 'https://www.galapagospet.com/wp-content/uploads/2020/10/ABOUT-US_Crested-Gecko@2x.png';
 
   content.appendChild(home);
@@ -18,4 +18,4 @@ function menuContent() {
   home.appendChild(image);
 }
 
-export default menuContent
+export default mainContent
